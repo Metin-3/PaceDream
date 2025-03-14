@@ -1,0 +1,69 @@
+/*! Date input ant design */
+:where(.css-dev-only-do-not-override-240cud).ant-picker .ant-picker-input>input:focus {
+    box-shadow: none;
+}
+
+:where(.css-dev-only-do-not-override-240cud).ant-picker-outlined:focus {
+    box-shadow: none;
+    border: 1px solid #d9d9d9;
+}
+
+:where(.css-dev-only-do-not-override-240cud).ant-picker-outlined:hover {
+    box-shadow: none;
+    border: 1px solid #d9d9d9;
+}
+
+:where(.css-dev-only-do-not-override-240cud).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-disabled) .ant-picker-cell-inner,
+:where(.css-dev-only-do-not-override-240cud).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-disabled) .ant-picker-cell-inner {
+    background-color: #5527d7;
+}
+
+
+:where(.css-dev-only-do-not-override-240cud).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+    background-color: #5527d7;
+    opacity: 0.8;
+}
+
+:where(.css-dev-only-do-not-override-240cud).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #5527d7;
+}
+
+:where(.css-dev-only-do-not-override-240cud).ant-tabs .ant-tabs-tab:hover {
+    color: #5527d7;
+}
+
+.ant-tabs-ink-bar {
+    background-color: #5527d7 !important;
+}
+
+
+.ant-picker-range .ant-picker-active-bar {
+    background-color: #5527d7 !important;
+}
+
+
+.ant-picker-input input {
+    color: #5527d7 !important;
+}
+
+
+.ant-picker-panel-container {
+    background-color: #fff !important;
+}
+
+.ant-picker:hover,
+.ant-picker-focused {
+    border-color: #5527d7 !important;
+    box-shadow: none !important;
+}
+
+
+:where(.css-dev-only-do-not-override-240cud).ant-input-outlined:hover {
+    border-color: #d9d9d9;
+}
+
+:where(.css-dev-only-do-not-override-240cud).ant-input-outlined:focus,
+:where(.css-dev-only-do-not-override-240cud).ant-input-outlined:focus-within {
+    border-color: #5527d7;
+    box-shadow: none !important;
+}

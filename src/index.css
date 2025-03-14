@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*! RESPPONSIVE CONTAINER */
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:1200px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        padding: 0 6px;
+    }
+}
+
+/* @media(max-width: 1024px) {
+    .header-center {
+        display: none !important;
+    }
+
+    .header-center-col {
+        width: 1000px;
+    }
+
+    .header-right {
+        display: none !important;
+    }
+} */
+
+/*! Transition */
+.transition {
+    transition: 0.5s;
+}
+
+
+
+/*! scroll width */
+::-webkit-scrollbar {
+    width: 1px;
+    background-color: transparent;
+}
+
+/*! scroll Track */
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* background-color: rgb(225, 203, 175); */
+}
+
+
+/*! scroll Handle */
+::-webkit-scrollbar-thumb {
+    background: #cdaa7c;
+    border-radius: 10px;
+}
